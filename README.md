@@ -116,17 +116,3 @@ available in your account/region.
 - [ ] Add the downstream inference-job trigger once approvals land in the
       approved folder (out of scope here, but there's a hook noted in
       `approval_agent.py`).
-
-## Pushing this to GitHub
-
-```bash
-cd promo-pricing-automation
-git init
-git add .
-git commit -m "Initial scaffold: LangGraph submission + approval agents"
-git branch -M main
-git remote add origin https://github.com/<your-username>/promo-pricing-automation.git
-git push -u origin main
-```
-
-Then invite your teammate: GitHub repo → **Settings → Collaborators → Add people**.
